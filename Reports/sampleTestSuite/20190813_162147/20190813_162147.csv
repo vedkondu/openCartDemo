@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+sampleTestSuite,Chrome 76.0.3809.100,,,2019-08-13 16:21:56,2019-08-13 16:22:13,16.668s,PASSED
+,,,,,,,
+Test Cases/CreateAccount,Chrome 76.0.3809.100,,,2019-08-13 16:21:56,2019-08-13 16:22:13,16.075s,PASSED
+Start listener action : launchBrowser,Chrome 76.0.3809.100,,,2019-08-13 16:21:57,2019-08-13 16:22:03,6.286s,PASSED
+openCart.Page_Login.loginToThePage(AppURL),Chrome 76.0.3809.100,,,2019-08-13 16:22:03,2019-08-13 16:22:06,2.460s,PASSED
+openCart.Page_Your_Store.clickOnRegisterButton(),Chrome 76.0.3809.100,,,2019-08-13 16:22:06,2019-08-13 16:22:09,2.880s,PASSED
+openCart.Page_Register_Account.setfirstName(firstName),Chrome 76.0.3809.100,,,2019-08-13 16:22:09,2019-08-13 16:22:09,0.218s,PASSED
+openCart.Page_Register_Account.setLastName(lastName),Chrome 76.0.3809.100,,,2019-08-13 16:22:09,2019-08-13 16:22:09,0.168s,PASSED
+openCart.Page_Register_Account.setEmail(email),Chrome 76.0.3809.100,,,2019-08-13 16:22:09,2019-08-13 16:22:09,0.262s,PASSED
+openCart.Page_Register_Account.setPhoneNumber(phoneNumber),Chrome 76.0.3809.100,,,2019-08-13 16:22:09,2019-08-13 16:22:10,0.167s,PASSED
+openCart.Page_Register_Account.setPassword(password),Chrome 76.0.3809.100,,,2019-08-13 16:22:10,2019-08-13 16:22:10,0.391s,PASSED
+openCart.Page_Register_Account.clickOnCheckBoxPrivacypolicy(),Chrome 76.0.3809.100,,,2019-08-13 16:22:10,2019-08-13 16:22:10,0.183s,PASSED
+openCart.Page_Register_Account.clickOnPrivacyPolicyAggreeButton(),Chrome 76.0.3809.100,,,2019-08-13 16:22:10,2019-08-13 16:22:12,2.342s,PASSED
+openCart.Page_Your_Account_Has_Been_Created.clickOnContinueButton(),Chrome 76.0.3809.100,,,2019-08-13 16:22:12,2019-08-13 16:22:13,0.120s,PASSED

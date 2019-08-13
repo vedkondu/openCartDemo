@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="18" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="18" timestamp="2019-08-08 15:13:05" hostname="vedkondu - LIN20000775.corp.capgemini.com" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\vedkondu\\Documents\\My Received Files\\openCartDemo(1)\\openCartDemo\\Reports\\New Test Suite\\20190808_151252"/>
+         <property name="logFiles" value="C:\\Users\\vedkondu\\Documents\\My Received Files\\openCartDemo(1)\\openCartDemo\\Reports\\New Test Suite\\20190808_151252\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="vedkondu - LIN20000775.corp.capgemini.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.4.1"/>
+         <property name="browser" value="Chrome 76.0.3809.100"/>
+         <property name="hostAddress" value="172.20.16.1"/>
+         <property name="sessionId" value="cb72c51478bd261e396c04e590711dcc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CreateAccount" classname="Test Cases/CreateAccount" status="PASSED">
+         <system-out><![CDATA[2019-08-08 15:13:05 - [TEST_CASE][PASSED] - Test Cases/CreateAccount: Test Cases/CreateAccount
+
+2019-08-08 15:13:06 - [TEST_STEP][PASSED] - Start listener action : launchBrowser: Current window maximized
+
+2019-08-08 15:13:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-08-08 15:13:06 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2019-08-08 15:13:06 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2019-08-08 15:13:07 - [MESSAGE][INFO] - Connecting to remote web server 'http://10.236.4.118:5566/wd/hub' with type 'Selenium'
+
+2019-08-08 15:13:07 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-08-08 15:13:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-08 15:13:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-08-08 15:13:10 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-08 15:13:10 - [TEST_STEP][PASSED] - openCart.Page_Login.loginToThePage(AppURL): openCart.Page_Login.loginToThePage is PASSED
+
+2019-08-08 15:13:14 - [MESSAGE][PASSED] - Navigate to 'https://demo.opencart.com/' successfully
+
+2019-08-08 15:13:14 - [MESSAGE][PASSED] - openCart.Page_Login.loginToThePage is PASSED
+
+2019-08-08 15:13:14 - [TEST_STEP][PASSED] - openCart.Page_Your_Store.clickOnRegisterButton(): openCart.Page_Your_Store.clickOnRegisterButton is PASSED
+
+2019-08-08 15:13:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Your Store/span_My Account' is present
+
+2019-08-08 15:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Your Store/span_My Account' is clicked on
+
+2019-08-08 15:13:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Your Store/linkRegister' is clicked on
+
+2019-08-08 15:13:18 - [MESSAGE][PASSED] - openCart.Page_Your_Store.clickOnRegisterButton is PASSED
+
+2019-08-08 15:13:18 - [TEST_STEP][PASSED] - openCart.Page_Register_Account.setfirstName(firstName): openCart.Page_Register_Account.setfirstName is PASSED
+
+2019-08-08 15:13:18 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/Page_Register Account/input_First Name_firstname'
+
+2019-08-08 15:13:18 - [MESSAGE][PASSED] - openCart.Page_Register_Account.setfirstName is PASSED
+
+2019-08-08 15:13:18 - [TEST_STEP][PASSED] - openCart.Page_Register_Account.setLastName(lastName): openCart.Page_Register_Account.setLastName is PASSED
+
+2019-08-08 15:13:19 - [MESSAGE][PASSED] - Text 'Demo' is set on object 'Object Repository/Page_Register Account/input_Last Name_lastname'
+
+2019-08-08 15:13:19 - [MESSAGE][PASSED] - openCart.Page_Register_Account.setLastName is PASSED
+
+2019-08-08 15:13:19 - [TEST_STEP][PASSED] - openCart.Page_Register_Account.setEmail(email): openCart.Page_Register_Account.setEmail is PASSED
+
+2019-08-08 15:13:19 - [MESSAGE][PASSED] - Text 'katalonDemo12@gmail.com' is set on object 'Object Repository/Page_Register Account/input_E-Mail_email'
+
+2019-08-08 15:13:19 - [MESSAGE][PASSED] - openCart.Page_Register_Account.setEmail is PASSED
+
+2019-08-08 15:13:19 - [TEST_STEP][PASSED] - openCart.Page_Register_Account.setPhoneNumber(phoneNumber): openCart.Page_Register_Account.setPhoneNumber is PASSED
+
+2019-08-08 15:13:19 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Page_Register Account/input_Telephone_telephone'
+
+2019-08-08 15:13:19 - [MESSAGE][PASSED] - openCart.Page_Register_Account.setPhoneNumber is PASSED
+
+2019-08-08 15:13:19 - [TEST_STEP][PASSED] - openCart.Page_Register_Account.setPassword(password): openCart.Page_Register_Account.setPassword is PASSED
+
+2019-08-08 15:13:20 - [MESSAGE][PASSED] - Text 'opekCart@12' is set on object 'Object Repository/Page_Register Account/input_Password_password'
+
+2019-08-08 15:13:20 - [MESSAGE][PASSED] - Text 'opekCart@12' is set on object 'Object Repository/Page_Register Account/input_Password Confirm_confirm'
+
+2019-08-08 15:13:20 - [MESSAGE][PASSED] - openCart.Page_Register_Account.setPassword is PASSED
+
+2019-08-08 15:13:20 - [TEST_STEP][PASSED] - openCart.Page_Register_Account.clickOnCheckBoxPrivacypolicy(): openCart.Page_Register_Account.clickOnCheckBoxPrivacypolicy is PASSED
+
+2019-08-08 15:13:21 - [MESSAGE][PASSED] - openCart.Page_Register_Account.clickOnCheckBoxPrivacypolicy is PASSED
+
+2019-08-08 15:13:21 - [TEST_STEP][PASSED] - openCart.Page_Register_Account.clickOnPrivacyPolicyAggreeButton(): openCart.Page_Register_Account.clickOnPrivacyPolicyAggreeButton is PASSED
+
+2019-08-08 15:13:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Register Account/input_Privacy Policy_btn btn-primary' is clickable
+
+2019-08-08 15:13:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Register Account/input_Privacy Policy_btn btn-primary' is clicked on
+
+2019-08-08 15:13:23 - [MESSAGE][PASSED] - openCart.Page_Register_Account.clickOnPrivacyPolicyAggreeButton is PASSED
+
+2019-08-08 15:13:23 - [TEST_STEP][PASSED] - openCart.Page_Your_Account_Has_Been_Created.clickOnContinueButton(): openCart.Page_Your_Account_Has_Been_Created.clickOnContinueButton is PASSED
+
+2019-08-08 15:13:23 - [MESSAGE][PASSED] - openCart.Page_Your_Account_Has_Been_Created.clickOnContinueButton is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-08 15:13:05 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/CreateAccount]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
